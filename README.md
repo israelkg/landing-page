@@ -5,5 +5,4 @@
 # Bem-vindo👋
 
 # Tecnologias
-HTML
-CSS
+HTML e CSS
