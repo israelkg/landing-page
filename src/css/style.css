@@ -1,0 +1,115 @@
+
+
+.logo {
+    width: 60px;
+    margin: 15px 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.ilustracao {
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.textos {
+    margin-top: 10px;
+    margin-right: 35px;
+    margin-left: 20px;
+    color: white;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.paragrafo {
+    font-size: 5px;
+    margin: 5px 0px 9px;
+}
+
+.register {
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    font-size: 5px;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    font-size: 8px;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.social .fa-brands {
+    border: solid 0.7px white;
+    border-radius: 50%;
+    padding: 3px;
+    color: white;
+}
+
+.icon {
+    margin: 6px;
+}
+
+
+@media(max-width: 347px) {
+    body {
+        background-image: url(../img/bg-mobile.svg);
+    }
+
+    .logo {
+        margin-bottom: 35px;
+        width: 25%;
+    }
+
+    .container {
+        font-size: 90px;
+        align-self: center;
+        display: block;
+    }
+
+    .ilustracao {
+        width: 85%;
+        margin: 0px 15px 0px 20px;
+    } 
+
+    .textos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;    
+    } 
+
+    .titulo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .paragrafo {
+        font-size: 10px;
+        display: flex;
+        text-align: center;
+    }
+
+    .register {
+        font-size: 10px;
+        width: 130px;
+    }
+    
+    .social {
+        font-size: 10px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+} 

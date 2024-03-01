@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    background: hsl(257, 40%, 49%) url(../img/bg-desktop.svg);
+    background-size: cover;
+}
