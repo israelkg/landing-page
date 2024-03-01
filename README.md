@@ -1,4 +1,4 @@
-# Quest HTML + CSS
+# Quest HTML + CSS Avançado
 
 # FrontEnd Mentor - Huddle landing page with single introductory section
 
