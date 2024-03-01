@@ -4,5 +4,5 @@
 
 # Bem-vindo👋
 
-# Tecnologias
+# Tecnologias utilizadas
 HTML e CSS
