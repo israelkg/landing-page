@@ -1,115 +1,77 @@
 
 
 .logo {
-    width: 60px;
-    margin: 15px 25px;
+    width: 250px;
+    margin: 40px 0px 0px 50px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-content: space-around;
+    max-width: 90%;
+    max-height: 100%;
+    margin: 50px 50px 0px 50px;
 }
-
 .ilustracao {
-    width: 200px;
+    width: 850px;
+    height: 650px;
     margin-left: 30px;
     margin-bottom: 30px;
 }
 
 .textos {
-    margin-top: 10px;
-    margin-right: 35px;
-    margin-left: 20px;
+    margin: 50px 50px 50px 70px;
     color: white;
 }
-
 .titulo {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 60px;
 }
-
 .paragrafo {
-    font-size: 5px;
-    margin: 5px 0px 9px;
+    font-size: 25px;
+    margin: 20px 0px 30px;
 }
-
 .register {
-    border-radius: 20px;
+    border-radius: 35px;
     background-color: white;
     color: hsl(257, 40%, 49%);
     font-weight: 400;
-    font-size: 5px;
-    padding: 5px;
-    width: 70px;
+    font-size: 25px;
+    padding: 20px;
+    width: 330px;
     text-align: center;
+    transition: 0.7s;
+}
+.register:hover {
+    border-radius: 35px;
+    background-color:hsl(257, 64%, 75%);
+    color: white;
 }
 
 .social {
     display: flex;
-    font-size: 8px;
-    justify-content: right;
-    margin-right: 20px;
+    flex-direction: row-reverse;
 }
-
-.social .fa-brands {
-    border: solid 0.7px white;
+.social .icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+}
+.social .icones li {
+    margin: 0px 15px;
+}
+.social .icones li a{
+    font-size: 30px;
+    border: solid 0.6px white;
     border-radius: 50%;
-    padding: 3px;
+    padding: 12px;
     color: white;
+    transition: 0.7s;
 }
 
-.icon {
-    margin: 6px;
+.social .icones li a:hover{
+    color: hsl(257, 65%, 76%);
 }
-
-
-@media(max-width: 347px) {
-    body {
-        background-image: url(../img/bg-mobile.svg);
-    }
-
-    .logo {
-        margin-bottom: 35px;
-        width: 25%;
-    }
-
-    .container {
-        font-size: 90px;
-        align-self: center;
-        display: block;
-    }
-
-    .ilustracao {
-        width: 85%;
-        margin: 0px 15px 0px 20px;
-    } 
-
-    .textos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;    
-    } 
-
-    .titulo {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .paragrafo {
-        font-size: 10px;
-        display: flex;
-        text-align: center;
-    }
-
-    .register {
-        font-size: 10px;
-        width: 130px;
-    }
-    
-    .social {
-        font-size: 10px;
-        justify-content: center;
-        margin-top: 30px;
-    }
-} 
