@@ -2,7 +2,7 @@
 
 .logo {
     width: 250px;
-    margin: 40px 0px 0px 50px;
+    margin: 60px 0px 0px 70px;
 }
 
 .container {
@@ -11,17 +11,16 @@
     align-content: space-around;
     max-width: 90%;
     max-height: 100%;
-    margin: 50px 50px 0px 50px;
+    margin: 70px 50px 0px 50px;
 }
 .ilustracao {
-    width: 850px;
-    height: 650px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    width: 900px;
+    height: 700px;
+    margin-left: 60px;
 }
 
 .textos {
-    margin: 50px 50px 50px 70px;
+    margin: 50px 20px 0px 50px;
     color: white;
 }
 .titulo {
@@ -37,7 +36,7 @@
     background-color: white;
     color: hsl(257, 40%, 49%);
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
     width: 330px;
     text-align: center;
@@ -59,6 +58,7 @@
     justify-content: center;
     width: 300px;
     height: 100px;
+    margin: 0px 50px;
 }
 .social .icones li {
     margin: 0px 15px;
